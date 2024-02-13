@@ -42,3 +42,45 @@ input[type='submit'] {
     cursor: pointer;
 }
 
+.already {
+    margin-top: 20px;
+}
+
+form p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.input-container p.msg {
+    visibility: hidden;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.input-container.error p.msg {
+    visibility: visible;
+}
+
+.content h1 {
+    position: absolute;
+    top: 45%;
+    right: 38%;
+    font-size: 5rem;
+    color: white;
+}
+
+input-container.error input {
+    border-color: red;
+}
+
+.input-container.success input {
+    background-color: rgb(97, 249, 97);
+}
+
+img {
+    width: 51%;
+    position: absolute;
+    top: 60px;
+    right: 10%;
+}
