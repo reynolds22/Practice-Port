@@ -13,3 +13,17 @@
 body {
     background-color: var(--main-color);
 }
+
+form {
+    border: 3px solid rgba(255, 255, 255, 0.224);
+    border-radius: 5px;
+    width: 30%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1.2;
+    margin-left: 60px;
+    margin-top: 50px;
+}
